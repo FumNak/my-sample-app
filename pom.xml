@@ -133,4 +133,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>Github Packages</name>
+			<url>https://maven.pkg.github.com/FumNak/my-sample-app</url>
+		</repository>
+	</distributionManagement>
 </project>
